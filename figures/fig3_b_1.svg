@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="875.52pt" height="97.92pt" viewBox="0 0 875.52 97.92" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="884.16pt" height="100.8pt" viewBox="0 0 884.16 100.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-04-27T16:44:17.202055</dc:date>
+    <dc:date>2024-05-07T19:11:39.854613</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,29 +21,29 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 97.92 
-L 875.52 97.92 
-L 875.52 0 
+   <path d="M 0 100.8 
+L 884.16 100.8 
+L 884.16 0 
 L 0 0 
-L 0 97.92 
+L 0 100.8 
 z
 " style="fill: none"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 42.418977 80.659271 
-L 872.685354 80.659271 
-L 872.685354 3.597332 
-L 42.418977 3.597332 
-L 42.418977 80.659271 
+    <path d="M 42.418977 83.602034 
+L 881.325354 83.602034 
+L 881.325354 3.302117 
+L 42.418977 3.302117 
+L 42.418977 83.602034 
 z
 " style="fill: none"/>
    </g>
    <g id="line2d_1">
-    <path d="M 65.917082 78.478273 
-L 849.187249 5.778331 
-L 849.187249 5.778331 
-" clip-path="url(#p9dd633ea43)" style="fill: none; stroke: #8e971e; stroke-width: 6"/>
+    <path d="M 66.16161 81.329394 
+L 857.582721 5.574757 
+L 857.582721 5.574757 
+" clip-path="url(#pc8f05ddc5b)" style="fill: none; stroke: #9b7fe9; stroke-width: 6"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1"/>
@@ -55,17 +55,17 @@ L 849.187249 5.778331
     <g id="ytick_1">
      <g id="line2d_2">
       <defs>
-       <path id="m0bfeeb1609" d="M 0 0 
+       <path id="mb0016c4129" d="M 0 0 
 L 5 0 
 " style="stroke: #000000"/>
       </defs>
       <g>
-       <use xlink:href="#m0bfeeb1609" x="42.418977" y="78.478273" style="stroke: #000000"/>
+       <use xlink:href="#mb0016c4129" x="42.418977" y="81.329394" style="stroke: #000000"/>
       </g>
      </g>
      <g id="text_1">
       <!-- $1.0$ -->
-      <g transform="translate(3.078977 89.116086) scale(0.28 -0.28)">
+      <g transform="translate(3.078977 91.967207) scale(0.28 -0.28)">
        <defs>
         <path id="Cmr10-31" d="M 594 0 
 L 594 225 
@@ -135,12 +135,12 @@ z
     <g id="ytick_2">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#m0bfeeb1609" x="42.418977" y="13.856102" style="stroke: #000000"/>
+       <use xlink:href="#mb0016c4129" x="42.418977" y="13.991938" style="stroke: #000000"/>
       </g>
      </g>
      <g id="text_2">
       <!-- $1.5$ -->
-      <g transform="translate(3.078977 24.493915) scale(0.28 -0.28)">
+      <g transform="translate(3.078977 24.629751) scale(0.28 -0.28)">
        <defs>
         <path id="Cmr10-35" d="M 556 728 
 Q 622 541 758 387 
@@ -204,15 +204,15 @@ z
     </g>
    </g>
    <g id="patch_3">
-    <path d="M 42.418977 80.659271 
-L 42.418977 3.597332 
+    <path d="M 42.418977 83.602034 
+L 42.418977 3.302117 
 " style="fill: none; stroke: #000000; stroke-width: 2; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p9dd633ea43">
-   <rect x="42.418977" y="3.597332" width="830.266378" height="77.061939"/>
+  <clipPath id="pc8f05ddc5b">
+   <rect x="42.418977" y="3.302117" width="838.906378" height="80.299916"/>
   </clipPath>
  </defs>
 </svg>

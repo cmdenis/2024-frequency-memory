@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="259.2pt" height="184.32pt" viewBox="0 0 259.2 184.32" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="262.08pt" height="184.32pt" viewBox="0 0 262.08 184.32" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-04-27T16:44:33.330930</dc:date>
+    <dc:date>2024-05-07T19:39:10.211068</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -22,8 +22,8 @@
  <g id="figure_1">
   <g id="patch_1">
    <path d="M 0 184.32 
-L 259.2 184.32 
-L 259.2 0 
+L 262.08 184.32 
+L 262.08 0 
 L 0 0 
 L 0 184.32 
 z
@@ -32,46 +32,43 @@ z
   <g id="axes_1">
    <g id="patch_2">
     <path d="M 50.49491 150.625354 
-L 244.199722 150.625354 
-L 244.199722 2.834646 
+L 247.142892 150.625354 
+L 247.142892 2.834646 
 L 50.49491 2.834646 
 L 50.49491 150.625354 
 z
 " style="fill: none"/>
    </g>
    <g id="line2d_1">
-    <path d="M 117.923016 36.238878 
-L 121.020311 39.025363 
-L 124.117606 41.811849 
-L 127.2149 45.294957 
-L 130.312195 49.822996 
-L 133.40949 55.395968 
-L 136.506784 61.665561 
-L 139.604079 67.586843 
-L 142.701374 73.856436 
-L 145.798669 78.036165 
-L 148.895963 83.957448 
-L 151.993258 89.87873 
-" clip-path="url(#p441c324b79)" style="fill: none; stroke: #00bfff; stroke-width: 6"/>
-   </g>
-   <g id="line2d_2">
-    <path clip-path="url(#p441c324b79)" style="fill: none; stroke: #00bfff; stroke-width: 6"/>
+    <path d="M 118.947525 36.587188 
+L 122.091881 39.025363 
+L 125.236236 41.811849 
+L 128.380591 45.294957 
+L 131.524947 49.822996 
+L 134.669302 55.744278 
+L 137.813657 61.665561 
+L 140.958013 67.586843 
+L 144.102368 73.856436 
+L 147.246723 79.081097 
+L 150.391079 84.305758 
+L 153.535434 89.87873 
+" clip-path="url(#p773e7db4ea)" style="fill: none; stroke: #00bfff; stroke-width: 6"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
-     <g id="line2d_3">
+     <g id="line2d_2">
       <defs>
-       <path id="md77f50f969" d="M 0 0 
+       <path id="mfac89a7f90" d="M 0 0 
 L 0 -5 
 " style="stroke: #000000"/>
       </defs>
       <g>
-       <use xlink:href="#md77f50f969" x="55.977122" y="150.625354" style="stroke: #000000"/>
+       <use xlink:href="#mfac89a7f90" x="56.060419" y="150.625354" style="stroke: #000000"/>
       </g>
      </g>
      <g id="text_1">
       <!-- $0.5$ -->
-      <g transform="translate(38.057122 175.400979) scale(0.28 -0.28)">
+      <g transform="translate(38.140419 175.400979) scale(0.28 -0.28)">
        <defs>
         <path id="Cmr10-30" d="M 1600 -141 
 Q 816 -141 533 504 
@@ -176,14 +173,14 @@ z
      </g>
     </g>
     <g id="xtick_2">
-     <g id="line2d_4">
+     <g id="line2d_3">
       <g>
-       <use xlink:href="#md77f50f969" x="147.347316" y="150.625354" style="stroke: #000000"/>
+       <use xlink:href="#mfac89a7f90" x="148.818901" y="150.625354" style="stroke: #000000"/>
       </g>
      </g>
      <g id="text_2">
       <!-- $1.0$ -->
-      <g transform="translate(129.427316 175.400979) scale(0.28 -0.28)">
+      <g transform="translate(130.898901 175.400979) scale(0.28 -0.28)">
        <defs>
         <path id="Cmr10-31" d="M 594 0 
 L 594 225 
@@ -209,14 +206,14 @@ z
      </g>
     </g>
     <g id="xtick_3">
-     <g id="line2d_5">
+     <g id="line2d_4">
       <g>
-       <use xlink:href="#md77f50f969" x="238.71751" y="150.625354" style="stroke: #000000"/>
+       <use xlink:href="#mfac89a7f90" x="241.577383" y="150.625354" style="stroke: #000000"/>
       </g>
      </g>
      <g id="text_3">
       <!-- $1.5$ -->
-      <g transform="translate(220.79751 175.400979) scale(0.28 -0.28)">
+      <g transform="translate(223.657383 175.400979) scale(0.28 -0.28)">
        <use xlink:href="#Cmr10-31" transform="translate(0 0.390625)"/>
        <use xlink:href="#Cmmi10-3a" transform="translate(50 0.390625)"/>
        <use xlink:href="#Cmr10-35" transform="translate(77.685547 0.390625)"/>
@@ -226,14 +223,14 @@ z
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
-     <g id="line2d_6">
+     <g id="line2d_5">
       <defs>
-       <path id="m009c4764f7" d="M 0 0 
+       <path id="m111ba53ddb" d="M 0 0 
 L 5 0 
 " style="stroke: #000000"/>
       </defs>
       <g>
-       <use xlink:href="#m009c4764f7" x="50.49491" y="115.421517" style="stroke: #000000"/>
+       <use xlink:href="#m111ba53ddb" x="50.49491" y="115.421517" style="stroke: #000000"/>
       </g>
      </g>
      <g id="text_4">
@@ -405,9 +402,9 @@ z
      </g>
     </g>
     <g id="ytick_2">
-     <g id="line2d_7">
+     <g id="line2d_6">
       <g>
-       <use xlink:href="#m009c4764f7" x="50.49491" y="76.73" style="stroke: #000000"/>
+       <use xlink:href="#m111ba53ddb" x="50.49491" y="76.73" style="stroke: #000000"/>
       </g>
      </g>
      <g id="text_5">
@@ -427,9 +424,9 @@ z
      </g>
     </g>
     <g id="ytick_3">
-     <g id="line2d_8">
+     <g id="line2d_7">
       <g>
-       <use xlink:href="#m009c4764f7" x="50.49491" y="38.038483" style="stroke: #000000"/>
+       <use xlink:href="#m111ba53ddb" x="50.49491" y="38.038483" style="stroke: #000000"/>
       </g>
      </g>
      <g id="text_6">
@@ -456,14 +453,14 @@ L 50.49491 2.834646
    </g>
    <g id="patch_4">
     <path d="M 50.49491 150.625354 
-L 244.199722 150.625354 
+L 247.142892 150.625354 
 " style="fill: none; stroke: #000000; stroke-width: 2; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p441c324b79">
-   <rect x="50.49491" y="2.834646" width="193.704812" height="147.790709"/>
+  <clipPath id="p773e7db4ea">
+   <rect x="50.49491" y="2.834646" width="196.647982" height="147.790709"/>
   </clipPath>
  </defs>
 </svg>
