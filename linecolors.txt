@@ -1,7 +1,0 @@
-1. cos(phi)
-2. cos(theta)
-3. x
-4. omega
-5. k
-6. 
-17. Pulses
