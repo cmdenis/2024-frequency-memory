@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-08-16T13:36:50.597070</dc:date>
+    <dc:date>2024-08-16T15:11:12.123634</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -77,7 +77,7 @@ L 186.980112 64.380491
 L 187.472636 64.413891 
 L 224.904459 64.413911 
 L 224.904459 64.413911 
-" clip-path="url(#pf0a3d1e8ba)" style="fill: none; stroke: #f61067; stroke-width: 4"/>
+" clip-path="url(#p697de7cc48)" style="fill: none; stroke: #f61067; stroke-width: 4"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1"/>
@@ -89,12 +89,12 @@ L 224.904459 64.413911
     <g id="ytick_1">
      <g id="line2d_2">
       <defs>
-       <path id="m009bc8cc54" d="M 0 0 
+       <path id="m07f6a1ac46" d="M 0 0 
 L 5 0 
 " style="stroke: #000000"/>
       </defs>
       <g>
-       <use xlink:href="#m009bc8cc54" x="34.667068" y="64.413911" style="stroke: #000000"/>
+       <use xlink:href="#m07f6a1ac46" x="34.667068" y="64.413911" style="stroke: #000000"/>
       </g>
      </g>
      <g id="text_1">
@@ -139,7 +139,7 @@ z
     <g id="ytick_2">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#m009bc8cc54" x="34.667068" y="38.881284" style="stroke: #000000"/>
+       <use xlink:href="#m07f6a1ac46" x="34.667068" y="38.881284" style="stroke: #000000"/>
       </g>
      </g>
      <g id="text_2">
@@ -182,7 +182,7 @@ z
     <g id="ytick_3">
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m009bc8cc54" x="34.667068" y="13.348657" style="stroke: #000000"/>
+       <use xlink:href="#m07f6a1ac46" x="34.667068" y="13.348657" style="stroke: #000000"/>
       </g>
      </g>
      <g id="text_3">
@@ -256,7 +256,7 @@ L 34.667068 11.830743
   </g>
  </g>
  <defs>
-  <clipPath id="pf0a3d1e8ba">
+  <clipPath id="p697de7cc48">
    <rect x="34.667068" y="11.830743" width="195.778287" height="54.114717"/>
   </clipPath>
  </defs>
