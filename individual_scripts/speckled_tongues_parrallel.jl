@@ -183,11 +183,4 @@ println("Number of available Threads: ", Threads.nthreads())
 @time Threads.@threads for _ in 1:15
     main()
 end
-#s1 = Threads.@spawn main()
-#s2 = Threads.@spawn main()
-
-#(fetch(s1), fetch(s2))
-
-
-
 
