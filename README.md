@@ -12,3 +12,11 @@ The repository contains the following:
 - The `all_figs.svg` contains all the assembled plots using the assets in `figures`. The final figures were exported from [Inkscape](https://inkscape.org/) in the `final_figs` folder.
 - The `individual_scripts` folder contains the scripts to generate the figures taking more time to generate (such as higher resolution Arnold tongues, as in Figure 6a). The data generated in this folder is used by the `make_data.ipynb` notebook.
 - The `Manifest.toml` and `Project.toml` keep track of the versions of the packages used in to make the figures and the simulations.
+
+## Simulations
+
+Simulations were done in [`julia`](https://github.com/JuliaLang/julia), using the [`DifferentialEquations`](https://github.com/SciML/DifferentialEquations.jl) package. The built-in forward-Euler integration scheme (`Euler`) was used.
+
+## Plotting
+
+The plotting was done using the ['Plots`](https://github.com/JuliaPlots/Plots.jl) package, with the `GR` and `pyplot` backends.
