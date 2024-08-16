@@ -105,63 +105,91 @@ function f_pulse_core(du, u, p, t)
     du[3] = -u[3] * p[3]
 end
 
+function main()
 
-# Initialize array with stored tongue values
-max_i_ratio = 2
-max_j_ratio = 2
-pers = LinRange(2.0, 2.2, 150)
-amps = LinRange(0.8, 2, 200)
-tongues = fill(NaN, size(amps)..., size(pers)..., max_i_ratio, max_j_ratio)
+    println("Starting task with worker id: ", Threads.threadid())
+    # Initialize array with stored tongue values
+    max_i_ratio = 2
+    max_j_ratio = 2
+    pers = LinRange(2.0, 2.2, 150)
+    #pers = LinRange(0.4, 2.2, 10)
 
-for i in 1:max_i_ratio
-    for j in 1:max_j_ratio
-        # Comment it out to avoid the script reloading past data
-        #tongues[:, :, i, j] = readdlm(string("individual_scripts/sptongue_", i, j, ".csv"))
+    #amps = LinRange(0, 2, 10)
+    amps = LinRange(0.8, 2, 200)
+
+    # Get start time
+    start_time = now()
+
+    tongues = fill(NaN, size(amps)..., size(pers)..., max_i_ratio, max_j_ratio)
+
+    for i in 1:max_i_ratio
+        for j in 1:max_j_ratio
+            # Comment it out to avoid the script reloading past data
+            #tongues[:, :, i, j] = readdlm(string("individual_scripts/tongue_", i, j, ".csv"))
+        end
     end
-end
 
 
-# Iterate over all periods, amps
-for (i, per) in ProgressBar(enumerate(pers))
-    for (j, amp) in ProgressBar(enumerate(amps))
+    # Iterate over all periods, amps
+    #for (i, per) in ProgressBar(enumerate(pers))
+    for (i, per) in enumerate(pers)
 
-        # Iterate over random conditions
-        for k in 1:6
-            phi, theta = get_phases([1 / per, amp, 0.5], [rand() * 2 * π, 0, 0.4 + rand() * 3])
+        if mod(i, 5) == 0
+            println("iteration is ", i, " and worker is ", Threads.threadid(), "\n time is: ", now())
+            
+        end
 
-            # Iterate over the cycles checks
-            for i_cycle in 1:max_i_ratio
-                for j_cycle in 1:max_j_ratio
-                    if is_entrained(phi, theta, i_cycle, j_cycle)
-                        tongues[j, i, i_cycle, j_cycle] = 1
+        for (j, amp) in enumerate(amps)
+
+
+            # Iterate over random conditions
+            for k in 1:1
+                phi, theta = get_phases([1 / per, amp, 0.5], [rand() * 2 * π, 0, 0.4 + rand() * 3])
+
+                # Iterate over the cycles checks
+                for i_cycle in 1:max_i_ratio
+                    for j_cycle in 1:max_j_ratio
+                        if is_entrained(phi, theta, i_cycle, j_cycle)
+                            tongues[j, i, i_cycle, j_cycle] = 1
+                        end
                     end
                 end
             end
+        end
+
+
+
+    end
+    # every completed period row store array in memory
+    for i in 1:max_i_ratio
+        for j in 1:max_j_ratio
+            writedlm(string("individual_scripts/multi_zoom/_", Threads.threadid(), "_", now(), "tongue_", i, j, ".csv"), tongues[:, :, i, j])
         end
     end
 
     # every completed period row store array in memory
     for i in 1:max_i_ratio
         for j in 1:max_j_ratio
-            writedlm(string("individual_scripts/tongue_zoom_", i, j, ".csv"), tongues[:, :, i, j])
+            #writedlm(string("individual_scripts/", now(), "tongue_", i, j, ".csv"), tongues[:, :, i, j])
         end
     end
-
+    return nothing
 end
 
+import Base.Threads.@spawn
 
-# Plot results
-plt = plot(legend=false, xlabel="Period", ylabel="amplitude")
-c_id = 1    # index for color
-pal = palette(:glasbey_bw_minc_20_n256)
 
-for i in 1:max_i_ratio
-    for j in 1:max_j_ratio
 
-        heatmap!(plt, pers, amps, readdlm(string("individual_scripts/tongue_zoom_", i, j, ".csv")), color=pal[c_id], alpha=0.8)
-        c_id += 1
-    end
+println("Number of available Threads: ", Threads.nthreads())
+
+@time Threads.@threads for _ in 1:15
+    main()
 end
+#s1 = Threads.@spawn main()
+#s2 = Threads.@spawn main()
 
-savefig("individual_scripts/speckled_tongues_zoom.png")
+#(fetch(s1), fetch(s2))
+
+
+
 
